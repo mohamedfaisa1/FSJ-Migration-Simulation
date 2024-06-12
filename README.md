@@ -34,3 +34,6 @@ python3 vcf_calcs.py [-h] [-dir DIR] [-n n]
 Command-line arguments:
 - `-dir`: the directory of the vcf files (separated by migratory scheme and population)
 - `-n`: the number of samples in the vcf file | default = 50
+
+### Example SFS Plot:
+![alttext](https://github.com/mohamedfaisa1/FSJ-Migration-Simulation/blob/main/images/4onf_sfs.png?raw=true)
