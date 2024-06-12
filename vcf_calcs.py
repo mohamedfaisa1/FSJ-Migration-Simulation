@@ -106,8 +106,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Compute number of Homozygous and Heterozygous sites in Simulations.")
 
-    parser.add_argument("-dir", action="store", dest="dir", type=str,
-                        default="/Users/mohamedabdelrahman/Desktop")
+    parser.add_argument("-dir", action="store", dest="dir", type=str)
     parser.add_argument("-n", action="store", dest="n", type=int,
                         default=50)
 
