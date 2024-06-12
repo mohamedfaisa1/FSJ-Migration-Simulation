@@ -16,8 +16,8 @@ Command-line arguments:
 - `-replicates`: the number of replicates of simulations to perform | default = 100 
 - `-recombination_rate`: the recombination rate | default: $\rho$ = 1.5e-8
 - `-migration`: the migration rate | default: m = 0.05
-- `-mutations`: a boolean varibale; indicates whether or not to simualte Jukes-Cantor 1969 style mutations with $\mu$ = 3e-9 | default = True
-- `-L`: the length of the macrochromosome to simualte | default = 1e7
+- `-mutations`: a boolean variable; indicates whether or not to simualte Jukes-Cantor 1969 style mutations with $\mu$ = 3e-9 | default = True
+- `-L`: the length of the macro-chromosome to simualte | default = 1e7
 - `-end`: the generation for which the simulation should end | default = None
 - `-seed`: the random seed for simualtions | default = 1
 - `-sample_history`: a boolean variable; if True, the sampling scheme will sample throughout history of the simulation.
