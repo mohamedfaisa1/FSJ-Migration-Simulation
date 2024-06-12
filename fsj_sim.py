@@ -202,11 +202,11 @@ def main():
     parser.add_argument("-mutations", action="store", dest="mut", type=bool,
                         default=True, help="Simulate Jukes-Cantor 1969 Model of Mutations.")
     parser.add_argument("-L", action="store", dest="L", type=float,
-                        default=1e6, help="Length of genomic segment to simulate.")
+                        default=1e7, help="Length of genomic segment to simulate.")
     parser.add_argument("-end", action="store", dest="end", type=int,
                         default=None, help="End time (generations) of simulation.")
     parser.add_argument("-seed", action="store", dest="seed", type=int,
-                        default=19, help="Random seed.")
+                        default=1, help="Random seed.")
     parser.add_argument("-sample_history", action="store", dest="sample_history", type=bool,
                         default=False,
                         help="If True, the sampling scheme will sample throughout history of the simulation." +
