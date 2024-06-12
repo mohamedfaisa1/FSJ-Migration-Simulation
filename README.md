@@ -3,7 +3,7 @@ Simulating the Evolution of Neutral Genetic Diversity in the Federally Threatene
 
 ## Usage
 
-`fsj_sim.py` outputs NumPy files (32 in total) for each of the summary statistics calculated in the file.
+`fsj_sim.py` outputs NumPy files (32 in total) for each of the summary statistics calculated.
 
 ```
 python3 fsj_sim.py [-h] [-replicates N] [-recombination_rate rho] 
